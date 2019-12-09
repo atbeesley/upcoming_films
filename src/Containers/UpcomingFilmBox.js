@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import UpcomingFilmsList from '../Components/UpcomingFilmsList'
+import ViewMoreButton from '../Components/ViewMoreButton'
 
 
 class UpcomingFilmBox extends Component {
@@ -41,6 +42,7 @@ render(){
     <div className="UpcomingFilmBox">
       <h2>This is a box for some films which are upcoming.</h2>
       <UpcomingFilmsList upcomingFilms={this.state.upcomingFilms} />
+      <ViewMoreButton />
     </div>
   )
 }
