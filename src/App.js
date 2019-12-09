@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import UpcomingFilmBox from './Containers/UpcomingFilmBox'
 
 function App() {
   return (
+    <UpcomingFilmBox />
   );
 }
 
